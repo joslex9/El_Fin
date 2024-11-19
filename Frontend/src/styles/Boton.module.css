@@ -1,0 +1,26 @@
+.primario {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .secundario {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .primario:hover {
+    background-color: #0056b3;
+  }
+  
+  .secundario:hover {
+    background-color: #5a6268;
+  }
+  
