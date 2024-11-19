@@ -1,0 +1,23 @@
+version: 'v2.28.1-desktop.1'  # Versión de Docker Compose
+services:
+  db:  # Nombre del servicio para la base de datos
+    image: mariadb:latest  # Imagen de MariaDB
+    container_name: mysql-container  # Nombre del contenedor
+    environment:
+      MYSQL_ROOT_PASSWORD: admin123
+      MYSQL_DATABASE: salon_eventos
+      MYSQL_USER: root
+      MYSQL_PASSWORD: admin123
+    ports:
+      - "3306:3306"  # Mapea el puerto 3306 del contenedor al puerto 3306 del host
+    volumes:
+      - db_data:/var/lib/mysql  # Persistencia de datos
+    networks:
+      - backend_network
+
+networks:
+  backend_network:  # Define una red para que los servicios se comuniquen entre sí
+    driver: bridge
+
+volumes:
+  db_data:  # Volumen para persistir datos
