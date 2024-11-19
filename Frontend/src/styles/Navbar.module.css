@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #ffcc00;
+  }
+  
+  .botonReservas {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .botonReservas:hover {
+    background-color: #ffd633;
+    color: #000;
+  }

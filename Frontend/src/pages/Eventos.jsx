@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import api from '../servicios/api';
-import Modal from '../componentes/Modal';
-import Boton from '../componentes/Boton';
+import api from '../services/api';
+import Modal from '../components/Modal.jsx';
+import Boton from '../components/Boton.jsx';
 
 function Eventos() {
   const [eventos, setEventos] = useState([]);
