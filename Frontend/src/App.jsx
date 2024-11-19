@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './componentes/Navbar';
-import Inicio from './paginas/Inicio';
-import Eventos from './paginas/Eventos';
-import Reservas from './paginas/Reservas';
+import Navbar from './components/Navbar';
+import Inicio from './pages/Inicio';
+import Eventos from './pages/Eventos';
+import Reservas from './pages/Reservas';
 
 function App() {
   return (

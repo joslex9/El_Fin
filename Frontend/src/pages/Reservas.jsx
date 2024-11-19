@@ -1,4 +1,4 @@
-import Boton from '../componentes/Boton';
+import Boton from '../components/Boton';
 
 function Reservas() {
   return (
